@@ -1,0 +1,99 @@
+/*
+          float shortestDistance = Mathf.Infinity;
+          GameObject nearestEnemy = null;
+
+          foreach (GameObject enemy in enemies)
+          {
+               float distanceToTarget = Vector3.Distance(transform.position, enemy.transform.position);
+               if (distanceToTarget < shortestDistance)
+               {
+                    shortestDistance = distanceToTarget;
+                    nearestEnemy = enemy;
+               }
+          }
+
+          if (nearestEnemy != null)
+          {
+               if (target == null)
+               {
+                    return;
+               }
+          }*/
+
+
+          
+          private float weaponDamage;
+     private float weaponDamageDeviation;
+     private float weaponCriticalChance;
+
+     public float WeaponDamage
+     {
+          get
+          {
+               return weaponDamage;
+          }
+          private set
+          {
+               weaponDamage = value;  //<-- Should this weaponDamage, ect be on set, how does set actualy work.
+          }
+     }
+
+     public float WeaponDamageDeviation
+     {
+          get
+          {
+               return weaponDamageDeviation;
+          }
+          private set
+          {
+               weaponDamageDeviation = value;
+          }
+     }
+
+     public float WeaponCriticalChance
+     {
+          get
+          {
+               return weaponCriticalChance;
+          }
+          private set
+          {
+               weaponCriticalChance = value;
+          }
+     }
+
+     //Constructor
+
+
+     /*public void AttributeChange(char attribute, int amount)
+     {
+          //TODO check how to approach getting attributes; saving local (this class) copy of stats || sending all of them each time
+          //should update of statistics be made from CreatureScript or CreatureAttributesScript
+
+          if (attribute == 'D')
+          {
+               this.weaponDamage = strength * 50 - (strength * 50) * (armor * 0.1f);
+          }
+     }
+     
+     public void AttributeChange(int strengh, int coordination, int armor, int intelligence)
+     {
+
+     }*/
+^ pozosta³oœæ po CreatureDamageScript
+
+
+/*if (pointHolder.GetComponent<MenuAttributesPointsScript>().remainingPoints>0)
+          {
+               attributeValue++;
+               attributeValue = Mathf.Clamp(attributeValue, minValue, maxValue);
+               slider.value = attributeValue;
+          }*/
+
+          
+          //attributeValue--;
+          //attributeValue = Mathf.Clamp(attributeValue, minValue, maxValue);
+          //slider.value = attributeValue;
+
+
+^ pozosta³oœæ po PersistanceAttribute 

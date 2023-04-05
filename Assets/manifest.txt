@@ -1,0 +1,53 @@
+3 fazy:
+	*poruszanie się po mapie świata
+	*poruszanie się po mapie bitwy
+		-pole bitwy może mieć różne rozmiary ale zawsze o ograniczonym rozmiarze
+		-pole bitwy zmienia się w zależoności w jakim miejscu na mapie świata rozpoczęła się bitwa
+			-standardowo bitwy będą toczyły się na jednej z dwuch typów map
+				bitwa w polu
+					bitwy w polu w zależności od lokacji na mapie bitwy rozmieszczone będą różne rodzaje przeszkód lub/i modyfikatorów terenowych (np. jeśli na MŚ broniący się bohater stoi na zalesionej kratce, atakujący na otwartym polu to pole bitwy podzielone będzie na część zalesioną oraz część otwartą
+						, a armie ustawione są na terenie, na którym stał bohater)
+				bitwa o warownie lub umocnione punkty
+					bitwy o umocnione punkty oraz warownie będą toczyć się na szczególnych mapach (wyższych lecz węższych), gdzie armia obrońcy ustawiona jest zawsze na murach a armia atakującego na terenach adekwatnych do 3, przylegających do bramy, kratek terenu.
+		-bitwy mają różne modyfikatory wpływające na skuteczność jednostek
+			-modyfikatory zależne od miejsca w którym bitwa się rozgrywa
+				np. jednostki broniące się przed ostrzałem w terenie zalesionym otrzymają bonus do uniku
+			-modyfikatory zależne od pogody jaka obecnie panuje(słonecznie/deszczowo, dzień/noc, gorąco/ciepło/zimno/lodowato)
+			-modyfikatory wynikające z użycia czarów lub/i umiejętności bohaterów prowadzących armię
+		
+	*ekran automatycznej walki
+		-walka trwa 2 "tury"
+		-jednostki same wybierają swój cel
+		-walka rozgrywana jest w dwuch trybach
+			-walka dystansowa
+				walka dystansowa odbywa się gdy jednostka dystansowa rozpocznie walkę w odległości większej niż 1 kratka
+			-walka w zwarciu
+				walka w zwarciu odbędzie się gdy jednostka zaatakuje przeciwnika stojącego bezpośrednio obok niej
+
+jednostki definiowane są przez 6 cech, od 1 do 10
+	*masa mięśniowa
+		znacząco zwiększa siłę ataków fizycznych(50i), zwiększa pulę zdrowia(25i), nieznacznie zmniejsza celność, zmniejsza szanse na unik(tylko ataki wręcz), zmniejsza karę za opancerzenie(zarówno fizyczne jak i magiczne)(10%)
+	*koordynacja ręka oko
+		znacząco zwiększa celność, znacząco zwiększa unik(tylko ataki wręcz), nieznacznie zmniejsza karę za opancerzenie, zwiększa szansę na obrażenia krytyczne(10%)
+	*odporność na ból
+		znacząco zwiększa pulę zdrowia(50i), zwiększa odporność na czary modyfikacji statystyk, nieznacznie zwiększa moc czarów(25i), zmniejsza unik
+	*wiedza
+		znacząco powiększa pulę many, powiększa moc czarów(50i), zwiększa odporność na czary kontroli umysłu, znacząco zmniejsza prawdopodobieństwo na uszkodzony czar( czar ma szanse na trafienie użytkownika zamiast przeciwnika)(10%)
+	*inteligencja
+		znacząco zwiększa moc czarów(75i), nieznacznie powięksa pulę many, nieznacznie zwiększa celność, zwiększa szanse na obrażenia krytyczne(5%)
+	*pancerz
+		procentowo zmniejsza ilość otrzymywanych obrażeń od ataków fizycznych (10-50 %), procentowo zwiększa otrzymywane obrażenia od zaklęć (5-25%), znacząco zmniejsza celność, zmniejsza siłę ataków fizycznych(10%), znacząco zmniejsza siłę ataków magicznych(15%)
+		
+7 podstawowych frakcji
+	*freefolk
+		-frakcja wolnych ludów połączonych w luźne plemiona lub państwa-miasta. Zamieszkują oni obszary wielkich stepów oraz dżungli. Zazwyczaj nie stronią przed konfliktami między sobą lecz w poczuciu wspulnego wroga potrafią połączyć siły w zdumiewająco skutecznej sile. Frakcja ta nie jest 
+			nazbyt zaawansowana technicznie, jednakże posiada całkiem kompetentnych magów którzy z racji zamieszkiwania niezwykle niedostępnych terenów stali się mistrzami w magii wsparcia.
+				Tier 4:
+				-Centaur -> Centaur Oszczepnik -> Centaur Wojownik -> Centaur Narhwal
+						  ➘ Centaur Harcownik -> Centaur Łucznik -> Centaur Arbaletnik
+	*hell
+	
+	*merfolk
+		-frakcja niezwykle potężnych czarodzi z głębin oceanów. Za pomocą swojej magii umożliwili swoim poddanym wyjście na ląd by ci zdobywali surowce ciężko dostępne pod wodą. Najsłabiej rozwinięta technologicznie frakcja, nadrabiająca niezwykle potężnymi czarodziejami.
+	
+	
